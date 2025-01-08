@@ -52,6 +52,19 @@ section {
     }
 }
 
+@media (min-width: 610px) {
+    section {
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .project {
+            width: 280px;
+        }
+    }
+    
+}
+
 @media (min-width: 1080px) {
 
     section {
